@@ -1,0 +1,74 @@
+/* Shared look for the login and welcome screens */
+.root {
+    -fx-font-family: "Segoe UI", "Helvetica", "Arial", sans-serif;
+    -fx-font-size: 13px;
+    -fx-background-color: linear-gradient(to bottom right, #1f3b73, #2f6fb0);
+}
+
+.card {
+    -fx-background-color: white;
+    -fx-background-radius: 14;
+    -fx-padding: 28 32 28 32;
+    -fx-spacing: 10;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.30), 18, 0.2, 0, 4);
+}
+
+.title {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1f3b73;
+}
+
+.subtitle {
+    -fx-text-fill: #6b7685;
+}
+
+.field-label {
+    -fx-text-fill: #34404f;
+    -fx-font-weight: bold;
+}
+
+.text-field, .password-field {
+    -fx-background-color: #f3f6fa;
+    -fx-background-radius: 8;
+    -fx-border-color: #cfd8e3;
+    -fx-border-radius: 8;
+    -fx-padding: 8 10 8 10;
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #2f6fb0;
+    -fx-background-color: white;
+}
+
+.error {
+    -fx-text-fill: #c62828;
+    -fx-font-weight: bold;
+}
+
+.primary {
+    -fx-background-color: #2f6fb0;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-padding: 9 0 9 0;
+    -fx-cursor: hand;
+}
+
+.primary:hover {
+    -fx-background-color: #24588d;
+}
+
+.secondary {
+    -fx-background-color: transparent;
+    -fx-text-fill: #2f6fb0;
+    -fx-border-color: #2f6fb0;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-padding: 8 0 8 0;
+    -fx-cursor: hand;
+}
+
+.secondary:hover {
+    -fx-background-color: #eaf1fa;
+}

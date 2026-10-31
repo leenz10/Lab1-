@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<StackPane prefHeight="420.0" prefWidth="460.0" stylesheets="@style.css"
+           xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+           fx:controller="org.openjfx.lab2.controller.WelcomeController">
+
+    <VBox styleClass="card" alignment="CENTER" maxWidth="340.0" maxHeight="-Infinity">
+        <Label styleClass="title" text="Welcome!"/>
+        <Label fx:id="welcomeLabel" styleClass="subtitle" wrapText="true" text="You are logged in"/>
+        <Label styleClass="subtitle" text="You have entered the system." wrapText="true"/>
+
+        <Button fx:id="logoutButton" styleClass="secondary" maxWidth="Infinity"
+                onAction="#onLogoutClick" text="Log out"/>
+    </VBox>
+</StackPane>
